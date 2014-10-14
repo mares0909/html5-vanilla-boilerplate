@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 			},
 			javascript: {
 				// the files to concatenate
-				src: ['source/js/plugin/*.js', 'source/js/componenets/*.js', 'source/js/objects/*.js', 'source/js/*.js'],
+				src: ['source/js/plugin/*.js', 'source/js/main.js', 'source/js/componenets/*.js', 'source/js/objects/*.js', 'source/js/init.js',],
 				// the location of the resulting JS file
 				dest: 'assets/js/application.js'
 			}
